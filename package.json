@@ -1,0 +1,31 @@
+{
+  "name": "note-app",
+  "version": "1.0.0",
+  "description": "this is mern based notes app",
+  "homepage": "https://github.com/HarshitBhalani/MERN_NOTES#readme",
+  "bugs": {
+    "url": "https://github.com/HarshitBhalani/MERN_NOTES/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HarshitBhalani/MERN_NOTES.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "mongodb": "^6.15.0",
+    "mongoose": "^8.13.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
